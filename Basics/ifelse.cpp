@@ -29,6 +29,20 @@ int main() {
 	} else {
 		cout << "Not old enough to vote.\n";
 	}
+
+	// Program +/- number
+	int myNum; // Is this a positive or negative number?
+	
+	cout << "Enter number: ";
+	cin >> myNum;
+	
+	if (myNum > 0) {
+		cout << "The value is a positive number.\n";
+	} else if (myNum < 0) {
+		cout << "The value is a negative number.\n";
+	} else {
+		cout << "The value is 0.\n";
+	}
 	
 	return 0;
 }
