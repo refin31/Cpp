@@ -14,6 +14,16 @@ double kelilingPersegiPanjang (double panjang, double lebar) {
  return keliling;
 }
 
+// Fungsi menampilkan luas
+void tampilkanLuas (double panjang, double lebar) {
+ cout << "Luas: " << luasPersegiPanjang(panjang, lebar) << endl;
+}
+
+// Fungsi menampilkan keliling
+void tampilkanKeliling(double panjang, double lebar) {
+ cout << "Keliling: " << kelilingPersegiPanjang(panjang, lebar) << endl;
+}
+
 int main() {
  
  double panjang, lebar;
@@ -23,8 +33,8 @@ int main() {
  cout << "Lebar: ";
  cin >> lebar;
  
- cout << "Luas: " << luasPersegiPanjang(panjang, lebar) << endl;
- cout << "Keliling: " << kelilingPersegiPanjang(panjang, lebar) << endl;
-
+ tampilkanLuas(panjang, lebar);
+ tampilkanKeliling(panjang, lebar);
+ 
  return 0;
 }
