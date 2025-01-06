@@ -21,7 +21,7 @@ int main() {
 }
 
 void fungsi(int *b) {
- cout << "Nilai b = " << *b << endl << endl;
+ cout << "Nilai b = " << *b << endl << endl; // dereferencing
  cout << "Address b = " << b << endl << endl;
 }
 
